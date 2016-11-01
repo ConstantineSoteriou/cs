@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Portfolio Website">
+		<meta name="keywords" content="web,development,constantine,soteriou">
+		<meta name="author" content="Constantine Soteriou">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="tablet.css">
+		<link rel="stylesheet" type="text/css" href="mobile.css">
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		
+		<title>Constantinos Soteriou</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+		
+		<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>		
+	</head>
+	
+	<body>
+		<div class="header">
+			<ul>
+				<li><a href="#about">about me</a> &nbsp;&nbsp;//</li>
+				<li><a href="#job">my job</a> &nbsp;&nbsp;//</li>
+				<li><a href="#clients">clients</a> &nbsp;&nbsp;//</li>
+				<li><a href="#contact">contact me</a> &nbsp;&nbsp;//</li>
+				<li><a href="#cyprus">CYPRUS</a></li>
+			</ul>				
+		</div>
+		
+		<a href="#">
+		<div class="logo">
+			<h1>CS</h1>
+		</div>
+		</a>
+		
+		<div class="banner" id="banner">
+			<div class="text">
+				<h1>Hello from CS</h1>
+				<h3>artist // web designer // web developer</h3>
+			</div>
+		</div>
+		
+		<div class="who-i-am" id="about">
+			<h1>Who I Am</h1>
+			<p>My name is Constantinos Soteriou. I am 32 years old and I am a web & graphic designer & web developer based in Cyprus, with over 5 years of freelance and studio experience. Computers have been in my life since I was a child and I always loved anything related with pixels so I started to design at a young age. Most of my skills and knowledge are self taught. I have a passion for designing detailed, creative and modern websites & graphics. I like to keep an eye on the latest trends over typography, shapes, colours, etc. I have been working as a web-designer (freelance and studio) for over 4 years, and have done lots of work over that time. My skills cover many aspects of graphic design, web design, illustration and technical knowledge. I am rather skilled on hardware, software, and computer knowledge too.</p>
+			
+			<img src="img/me.png" alt="me" width="350">
+		</div>
+		
+		<div class="job" id="job">			
+			<div class="text">
+				<h1>That's My Job</h1>
+			</div>
+			
+			<div class="photo">
+			</div>
+		</div>
+		
+		<div class="clients" id="clients">
+			<div class="text">
+				<h1>Who Are My Clients</h1>
+			</div>
+			
+			<div class="container">
+				<div class="art">
+				</div>
+				
+				<div class="restaurant">
+				</div>
+				
+				<div class="school">
+				</div>
+				
+				<div class="kids">
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="search-icon" id="contact">
+			<img src="img/search.png" alt="search" width="100">
+		</div>
+			
+		
+			
+			
+		<div class="find-me">
+			<h1>Where You Can Find Me</h1>
+		</div>
+			
+			
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993354.2935982324!2d32.8380479782081!3d35.13361680515218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de1767ca494d55%3A0x324c3c807fc4146e!2sCyprus!5e0!3m2!1sen!2sus!4v1477993349089" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="cyprus-text" id="cyprus">
+			<h1>from the beautiful Isle of CYPRUS</h1>
+		</div>
+			
+		<div class="cyprus-image">
+		</div>
+		
+		
+		
+		
+		
+		<div class="footer">
+			<p>Copyright 2016 &copy; // Designed, & Developed by <a href="#" target="_blank">Constantine Soteriou</a><br />+35799540738 - consot@gmail.com<br />All Rights Reserved</p>
+		</div>
+		
+		<a href="#banner">
+		<div id="top">
+			<p>TOP</p>
+		</div>
+		</a>
+		
+
+	</body>
+</html>

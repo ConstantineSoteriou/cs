@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+	margin: 0;
+	font-family: poiret one;
+}
+
+.header {
+	width: 100%;
+	height: 105px;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.header ul {
+	display: inline-block;
+	background: none;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translate(0%, -50%);
+}
+
+.header ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-family: poiret one;
+	color: #e1e1e1;
+}
+
+.header ul li a {
+	font-family: poiret one;
+	font-size: 150%;
+	text-decoration: none;
+	color: #e1e1e1;
+	margin-left: 15px;
+	transition-duration: 0.1s;
+	padding-bottom: 25px;
+	border-bottom: 1px solid transparent;
+}
+
+.header ul li a:hover {
+	color: #fff;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #fff;
+}
+
+.logo {
+	width: 120px;
+	height: 105px;
+	background-color: #362f2d;
+	position: fixed;
+	top: 52px;
+	left: 74px;
+	z-index: 1;
+}
+
+.logo h1 {
+	margin: 0;
+	font-size: 450%;
+	color: #e1e1e1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.banner {
+	width: 100%;
+	height: 652px;
+	background: url("img/banner.jpg") no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+
+
+.banner .text {
+	width: auto;
+	height: auto;
+	background-color: none;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.banner .text h1 {
+	margin: 0;
+	color: #e1e1e1;
+	font-size: 500%;
+}
+
+.banner .text h3 {
+	margin: 0;
+	color: #e1e1e1;
+	font-size: 160%;
+}
+
+.who-i-am {
+	width: 100%;
+	height: auto;
+	background-color: #e1e1e1;
+	padding: 30px;
+}
+
+.who-i-am h1 {
+	margin: 0;
+	font-size: 300%;
+}
+
+.who-i-am p {
+	display: inline-block;
+	margin: 0;
+	width: 50%;
+	height: auto;
+	font-size: 150%;
+}
+
+.who-i-am img {
+	margin-left: 125px;
+	filter: grayscale(1);
+}
+
+.job {
+	width: 100%;
+	height: 591px;
+	background-color: #000;
+}
+
+.job .photo {
+	width: 50%;
+	height: 591px;
+	background: url("img/job.jpg") no-repeat center center;
+	background-size: cover;
+	float: left;
+}
+
+.job .text {
+	width: 50%;
+	height: 591px;
+	position: relative;
+	float: right;
+	text-align: center;
+}
+
+.job .text h1 {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	font-size: 566%;
+	color: #e1e1e1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clients {
+	width: 100%;
+	height: 400px;
+	background-color: #a1a1a1;
+}
+
+.clients .container {
+	width: 50%;
+	height: 400px;
+	background-color: none;
+	margin: 0;
+	float: right;
+}
+
+.clients .container .art {
+	width: 50%;
+	height: 200px;
+	background: url("img/art.jpg") no-repeat center center;
+	background-size: cover;
+	float: left;
+	transition-duration: 0.2s;
+}
+
+.clients .container .art:hover {
+	opacity: 0.7;
+}
+
+.clients .container .restaurant {
+	width: 50%;
+	height: 200px;
+	background: url("img/restaurant.jpg") no-repeat center center;
+	background-size: cover;
+	float: left;
+	transition-duration: 0.2s;
+}
+
+.clients .container .restaurant:hover {
+	opacity: 0.7;
+}
+
+.clients .container .school {
+	width: 50%;
+	height: 200px;
+	background: url("img/school.jpg") no-repeat center center;
+	background-size: cover;
+	float: left;
+	transition-duration: 0.2s;
+}
+
+.clients .container .school:hover {
+	opacity: 0.7;
+}
+
+.clients .container .kids {
+	width: 50%;
+	height: 200px;
+	background: url("img/kids.jpg") no-repeat center center;
+	background-size: cover;
+	float: left;
+	transition-duration: 0.2s;
+}
+
+.clients .container .kids:hover {
+	opacity: 0.7;
+}
+
+.clients .text {
+	width: 50%;
+	height: 400px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.clients .text h1 {
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	font-size: 566%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.search-icon {
+	width: 100%;
+	height: 130px;
+	background-color: #252525;
+	float: left;
+	position: relative;
+}
+
+.search-icon img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.find-me {
+	width: 100%;
+	height: 130px;
+	background-color: #534741;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+.find-me h1 {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	font-size: 237%;
+	color: #e1e1e1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+iframe {
+	width: 100%;
+	height: 500px;
+	background: none;
+}
+
+
+
+
+
+
+
+
+
+.cyprus-text {
+	width: 50%;
+	height: 453px;
+	background-color: #827b00;
+	clear: both;
+	float: left;
+	position: relative;
+}
+
+.cyprus-text h1 {
+	width: 100%;
+	margin: 0;
+	font-size: 470%;
+	color: #d1c572;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cyprus-image {
+	width: 50%;
+	height: 453px;
+	background: url("img/cyprus.jpg") no-repeat center center;
+	background-size: cover;
+	float: right;
+}
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	height: 105px;
+	background-color: #000;
+	position: relative;
+	clear: both;
+}
+
+.footer p {
+	width: 100%;
+	margin: 0;
+	color: #e1e1e1;
+	font-family: poiret one;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.footer p a {
+	text-decoration: none;
+	color: lightblue;
+	transition-duration: 0.2s;
+}
+
+.footer p a:hover {
+	color: #fff;
+}
+
+#top {
+	width: 60px;
+	height: 60px;
+	background-color: rgba(130,123,0,0.5);
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	transition-duration: 0.2s;
+	border-radius: 50%;
+}
+
+#top p {
+	color: #000;
+	font-size: 175%;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#top:hover {
+	background-color: rgba(130,123,0,0.7);
+}
